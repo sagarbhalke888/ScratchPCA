@@ -18,4 +18,25 @@ PCA involves the following steps:
 \[ \text{Cov}(X) = \frac{1}{n-1} (X - \bar{X})^T (X - \bar{X}) \]
 where \( X \) is the data matrix, \( \bar{X} \) is the mean of the data matrix, and \( n \) is the number of observations.
 
-2. **Eigenvalues and Eigenvectors
+2. **Eigenvalues and Eigenvectors**:
+The eigenvalues \( \lambda \) and eigenvectors \( v \) satisfy:
+\[ A v = \lambda v \]
+where \( A \) is the covariance matrix.
+
+## Code
+
+The implementation includes the following steps:
+
+1. **Loading the Dataset**: The Iris dataset is used as an example.
+2. **Calculating the Covariance Matrix**.
+3. **Computing Eigenvalues and Eigenvectors**.
+4. **Sorting and Selecting Principal Components**.
+5. **Transforming the Data**.
+
+### pca.py
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 30 16:
+```
