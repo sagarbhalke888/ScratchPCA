@@ -33,7 +33,7 @@ The implementation includes the following steps:
 4. **Sorting and Selecting Principal Components**.
 5. **Transforming the Data**.
 
-### pca.py
+### PCA from scratch.py
 
 ```python
 # -*- coding: utf-8 -*-
